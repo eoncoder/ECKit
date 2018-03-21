@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	
+	<ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <Authors>Carlos Leon (eoncoder)</Authors>
+    <AssemblyVersion>0.0.1804.0</AssemblyVersion>
+    <FileVersion>0.0.1804.0</FileVersion>
+    <Version>0.0.1804.0</Version>
+    <Copyright>Copyright Carlos Leon (eoncoder) 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/eoncoder/ECKit/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/eoncoder/ECKit/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eoncoder/ECKit.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Tools;Boilerplate</PackageTags>
+    <Description>ECKit is a free, open source, community-focused tool for easy tooling for .NET Framework.</Description>
   </PropertyGroup>
+
 
 </Project>

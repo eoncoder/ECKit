@@ -21,5 +21,21 @@ namespace ECKit.XUnitTest
 
             HashHelper.Md5With(string.Empty).Should().Be(v_result);
         }
+
+        [Fact]
+        public void HashHelperTest_300_1234567890_string_should_be_equal_to_sha1()
+        {
+            string v_result = "01b307acba4f54f55aafc33bb06bbbf6ca803e9a";
+
+            HashHelper.Sha1With("1234567890").Should().Be(v_result);
+        }
+
+        [Fact]
+        public void HashHelperTest_400_1234567890_string_should_be_equal_to_md5()
+        {
+            uint v_result = 4243654632u;
+
+            HashHelper.Md5With("1234567890").Should().Be(v_result);
+        }
     }
 }
