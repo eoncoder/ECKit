@@ -14,4 +14,9 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECKit.Abstractions\ECKit.Abstractions.csproj" />
+    <ProjectReference Include="..\ECKit\ECKit.csproj" />
+  </ItemGroup>
+
 </Project>

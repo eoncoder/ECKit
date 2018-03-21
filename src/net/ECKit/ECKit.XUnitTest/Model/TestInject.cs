@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ECKit.Abstractions
+namespace ECKit.XUnitTest.Model
 {
-    public interface IService
+    class TestInject
     {
+        public int Value = 0;
     }
 }

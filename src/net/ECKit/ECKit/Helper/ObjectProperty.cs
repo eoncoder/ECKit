@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace com.eoncoder.ECKit.Common
+namespace ECKit.Helper
 {
     public class ObjectProperty
     {

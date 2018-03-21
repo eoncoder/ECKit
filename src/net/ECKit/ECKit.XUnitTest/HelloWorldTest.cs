@@ -4,10 +4,10 @@ using Xunit;
 
 namespace ECKit.XUnitTest
 {
-    public class UnitTest1
+    public class HelloWorldTest
     {
         [Fact]
-        public void Test1()
+        public void HelloWorld_100_String_SHOULD_BE_HelloWorld()
         {
             "HelloWorld".Should().Be("HelloWorld");
         }

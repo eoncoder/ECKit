@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace com.eoncoder.ECKit.Common
+namespace ECKit.Helper
 {
     public class HashHelper
     {
