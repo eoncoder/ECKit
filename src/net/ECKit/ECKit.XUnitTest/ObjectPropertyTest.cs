@@ -6,7 +6,7 @@ using Xunit;
 using ECKit.Helper;
 using ECKit.XUnitTest.Model;
 
-namespace Fact
+namespace ECKit.XUnitTest
 {
     public class ObjectPropertyTest
     {

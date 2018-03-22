@@ -3,7 +3,7 @@ using ECKit;
 using Xunit;
 using ECKit.XUnitTest.Model;
 
-namespace com.eoncoder.ECKit.Common.Test
+namespace ECKit.XUnitTest
 {
 
     public class SingletonIoCTest
